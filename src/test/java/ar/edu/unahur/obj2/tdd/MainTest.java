@@ -10,6 +10,9 @@ public class MainTest {
 }
 
 /*
+
+TDD: Rojo -> Verde -> Refactor (Azul)
+
 Historia de usuario.
 
 Como huesped del hotel,
