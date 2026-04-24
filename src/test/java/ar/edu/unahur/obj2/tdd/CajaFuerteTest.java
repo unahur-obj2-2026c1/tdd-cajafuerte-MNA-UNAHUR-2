@@ -8,9 +8,17 @@ public class CajaFuerteTest {
     
     @Test
     public void queLaCajaFuerteEsteAbiertaAlCrearse() {
-        CajaFuerte caja = new CajaFuerte();
+        CajaFuerte caja = dadoQueExisteUnaCajaFuerte();
+        estaAbierta(caja);
+    }
+
+    private void estaAbierta(CajaFuerte caja) {
         assertTrue(caja.estaAbierta());
-        
+    }
+
+    private CajaFuerte dadoQueExisteUnaCajaFuerte() {
+        CajaFuerte caja = new CajaFuerte();
+        return caja;
     }
 
 }
