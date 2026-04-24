@@ -8,6 +8,12 @@ public class CajaFuerteTest {
     
     @Test
     public void queLaCajaFuerteEsteAbiertaAlCrearse() {
+        CajaFuerte caja = new CajaFuerte();
+        assertTrue(caja.estaAbierta());
+    }
+/*    
+    @Test
+    public void queLaCajaFuerteEsteAbiertaAlCrearse() {
         CajaFuerte caja = dadoQueExisteUnaCajaFuerte();
         estaAbierta(caja);
     }
@@ -20,5 +26,6 @@ public class CajaFuerteTest {
         CajaFuerte caja = new CajaFuerte();
         return caja;
     }
+*/
 
 }
