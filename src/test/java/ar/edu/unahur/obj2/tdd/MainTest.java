@@ -35,5 +35,13 @@ Criterios de aceptación. (G-W-T -> Dado - Cuando - Entonces)
     Cuando se intenta abrir con ese mismo código.
     Entonces debe abrirse correctamente.
 
+4. No se abre con código incorrecto.
+    Dado que la caja fuerte fue cerrada con un código.
+    Cuando se intenta abrir con un código distinto.
+    Entonces no debe abrirse.
 
+6. La Caja Fuerte se bloquea tras 3 intentos fallidos.
+    Dado que la caja fuerte ha sido cerrada con un código.
+    Cuando se intenta abrir con un código incorrecto 3 veces.
+    Entonces la caja fuerte debe quedar bloqueada.
 */
